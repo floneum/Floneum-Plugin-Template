@@ -1,6 +1,7 @@
 // Build with:
 // rustup target add wasm32-wasi
-// cargo build --release --target wasm32-wasi
+// cargo install --git https://github.com/floneum/floneum floneum-cli
+// floneum build --release
 
 use floneum_rust::*;
 
