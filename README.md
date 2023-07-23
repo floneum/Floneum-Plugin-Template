@@ -10,8 +10,14 @@ Before you build your plugin, you must install [rust](https://rustup.rs/) and th
 rustup target add wasm32-wasi
 ```
 
+And install the Floneum CLI:
+
+```sh
+cargo install --git https://github.com/floneum/floneum floneum-cli
+```
+
 You can build the project with:
 
 ```sh
-cargo build --release --target wasm32-wasi
+floneum build --release
 ```
